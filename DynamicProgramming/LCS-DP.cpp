@@ -37,6 +37,6 @@ int main() {
 	// your code goes here
 	string a="ABCDGH";
 	string b="AED";	
-	cout<<solve(a,b,0,0);
+	cout<<solve(a,b);
 	return 0;
 }
