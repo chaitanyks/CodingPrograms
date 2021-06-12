@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int equalPartitionDP(int n, int a[]) {
+int equalPartitionDP(int a[], int n) {
     // code here
-    
+
     int sum = 0;
     for (int i = 0; i < n; i++) {
         sum = sum + a[i];
