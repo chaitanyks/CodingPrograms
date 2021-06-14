@@ -31,5 +31,5 @@ int main() {
 	
 	cout<<nlogn(a,n)<<endl;
 	return 0;
-
+    // This code is contributed by defcdr
 }
