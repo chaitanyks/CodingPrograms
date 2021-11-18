@@ -1,0 +1,22 @@
+fast input/output
+
+static auto _speedupMagic = []
+{ ios::sync_with_stdio(false);
+cin.tie(nullptr); return 0; } ();
+
+-----------------------------------------------------------------
+vector initialize
+1D: 
+int n = 5;
+vector<int> vct(n,1);
+
+2D:
+int n=5;
+vector<vector<int>> vct(n,vector<int>(n,2));
+
+method pass:
+
+void method(vector<vector<int>> &vct,int n){}
+
+-----------------------------------------------------------------
+
